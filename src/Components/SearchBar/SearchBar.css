@@ -1,0 +1,15 @@
+.SearchBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 1rem 1rem 1rem;
+    background: rgba(45, 45, 142, .7);
+
+}
+
+.SearchBar input {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 17rem;
+    text-align: center;
+    
+};

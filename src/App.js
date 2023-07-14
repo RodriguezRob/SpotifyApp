@@ -1,13 +1,16 @@
 import logo from './logo.svg';
 import './App.css';
+import SearchBar from './Components/SearchBar/SearchBar';
+
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <SearchBar />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hot relaods
+          So this is where it is
         </p>
         <a
           className="App-link"
@@ -20,6 +23,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
 export default App;
